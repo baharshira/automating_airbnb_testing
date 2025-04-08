@@ -1,5 +1,6 @@
 import time
 
+
 def click_highest_rating(page, rating_str):
     time.sleep(2) # Same as in get price and rate - naive solution
 

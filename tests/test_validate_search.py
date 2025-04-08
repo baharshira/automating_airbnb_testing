@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 import re
 
+
 def validate_search(page, params):
     destination, check_in_offset, check_out_offset, number_of_adults, number_of_children = params
     validate_destination(page,destination)

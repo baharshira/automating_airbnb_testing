@@ -1,6 +1,7 @@
 import re
 import time
 
+
 def get_minimal_price(page):
     time.sleep(5)
     # I wanted to wait for the full page to get loaded. Definitely not a best practice approach!

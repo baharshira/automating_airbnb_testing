@@ -1,4 +1,5 @@
 import pytest
+
 from pages.airbnb_page import AirbnbPage
 from utils.get_best_rate import get_best_rate
 from tests.test_validate_search import validate_search
