@@ -7,7 +7,6 @@ def click_highest_rating(page, rating_str):
     if rating_str:
         rating_selector = f"text='{rating_str}'"
         try:
-            # Increase timeout or ensure the page has fully loaded all components
             element = page.wait_for_selector(rating_selector, state="visible", timeout=10000)
             element.click()
             print(f"Successfully clicked on the element with rating: {rating_str}")
